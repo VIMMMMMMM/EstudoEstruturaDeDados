@@ -73,13 +73,12 @@ return (size==0);
 
     }
     public boolean remove(Object element){
-        for (int i = 0; i < size; i++) {
-            if (elements[i].equals(element)){
-                elements[i]=elements[i+1];
-                size--;
+
+            if (indexOf(element)!=-1){
+                remove(element);
                 return true;
             }
-        }
+
    return false;
     }
     public Object remove(int index){
