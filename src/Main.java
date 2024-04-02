@@ -15,7 +15,7 @@ public class Main {
         System.out.println("/////////////////////////////////////////////////////////////////////////////");
         System.out.println("teste get");
         System.out.println(lista.get(0));
-    lista.remove(2);
+     lista.remove(2);
     lista.print();
     lista.remove(new Alunos("eduardo2"));
     lista.print();
